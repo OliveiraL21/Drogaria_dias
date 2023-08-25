@@ -389,13 +389,33 @@
 	}
 
 	.header__logo__container {
-		margin-left: 20px;
-		font-size: .93em;
-		width: 70%;
+		font-size: .8em;
+		width: 100%;
+		margin: 0;
+		padding-right: 30px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.header__logo__list {
+		width: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 5px;
+		margin-top: 10px;
+	}
+
+	.header__logo_list li {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
 	}
 
 	.header__menuContainer {
-		width: 80%;
+		width: 50%;
 	}
 
 	.header__menu {
@@ -404,8 +424,8 @@
 	}
 
 	.header__logotipo {
-		width: 30%;
-		margin-top: -10px;
+		width: 50%;
+
 	}
 
 	.header__menu__link {
