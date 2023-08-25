@@ -388,6 +388,12 @@
 		padding: 10px 0;
 	}
 
+	.header__logo__container {
+		width: 100%;
+		font-size: .93em;
+
+	}
+
 	.header__menuContainer {
 		width: 80%;
 	}
@@ -399,6 +405,7 @@
 
 	.header__logotipo {
 		width: 30%;
+		margin-top: -12px;
 	}
 
 	.header__menu__link {
@@ -407,7 +414,7 @@
 
 
 	.home__banner {
-		padding-top: 80px;
+		padding-top: 50px;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
