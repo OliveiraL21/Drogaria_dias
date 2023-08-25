@@ -389,9 +389,9 @@
 	}
 
 	.header__logo__container {
-		width: 100%;
+		margin-left: 20px;
 		font-size: .93em;
-
+		width: 70%;
 	}
 
 	.header__menuContainer {
@@ -405,7 +405,7 @@
 
 	.header__logotipo {
 		width: 30%;
-		margin-top: -12px;
+		margin-top: -10px;
 	}
 
 	.header__menu__link {
