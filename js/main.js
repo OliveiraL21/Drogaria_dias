@@ -49,5 +49,18 @@ function initAnimarScroll() {
 	window.addEventListener('scroll', animaScroll)
 }
 
+function copyrightAge() {
+	const copy = document.querySelector(".contatos__copyright");
+	console.log(copy);
+
+	const year = new Date().getFullYear();
+
+	const copyrigth = `copyright <span
+	style="display: inline-block; font-size: 14px; color: #ffffff; background: transparent; border-radius: 6px; padding: 0 5px; margin-bottom: -2px">©</span> ${year} Drogaria Dias - Todos os direitos reservados`;
+
+	copy.innerHTML = copyrigth;
+}
+
 scrollSmooth();
 initAnimarScroll();
+copyrightAge();
