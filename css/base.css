@@ -29,7 +29,9 @@
 	margin-right: 5px;
 }
 
-
+.header__logotipo__text {
+	margin: 10px 0 0 5px;
+}
 
 .header__menuContainer {
 	width: 80%;
@@ -71,12 +73,6 @@
 
 	.header__logo__container {
 		width: 30%;
-	}
-
-	.header__logo__container h1 {
-		font-size: 1.2em;
-		margin-top: 30px;
-		padding: 0;
 	}
 
 	.header {
@@ -392,14 +388,19 @@
 		font-size: .8em;
 		width: 100%;
 		margin: 0;
-		padding-right: 30px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 
+	.header__logotipo__text {
+		width: 100%;
+		height: 100%;
+		padding: 5px;
+	}
+
 	.header__logo__list {
-		width: 50%;
+		width: 40%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
